@@ -1,0 +1,696 @@
+{
+  "1974": [
+    {
+      "file": "01.jpg",
+      "caption": "Appa, before you were anyone’s hero.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "A little boy who’d grow into our whole world.",
+      "anim": "popup"
+    }
+  ],
+  "1982": [
+    {
+      "file": "01.jpg",
+      "caption": "Amma, already stealing the show.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "The little girl who’d become our home.",
+      "anim": "popup"
+    }
+  ],
+  "2001": [
+    {
+      "file": "01.jpg",
+      "caption": "Where our whole family began.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Showered in blessings, Amma.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Amma, the prettiest bride.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Two kids, saying yes to forever.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Every ritual, every blessing.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "06.jpg",
+      "caption": "Already laughing together.",
+      "anim": "popup"
+    },
+    {
+      "file": "07.jpg",
+      "caption": "One drink, two straws — so them.",
+      "anim": "zoom"
+    },
+    {
+      "file": "08.jpg",
+      "caption": "Their grandest day.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "09.jpg",
+      "caption": "Welcomed into a brand new life.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "10.jpg",
+      "caption": "Newlyweds, learning to be a home.",
+      "anim": "popup"
+    },
+    {
+      "file": "11.jpg",
+      "caption": "And finally, just the two of them.",
+      "anim": "zoom"
+    },
+    {
+      "file": "12.jpg",
+      "caption": "Quiet evenings, only the two of them.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "13.jpg",
+      "caption": "Sailing into the rest of their story.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "14.jpg",
+      "caption": "Off exploring, side by side.",
+      "anim": "popup"
+    },
+    {
+      "file": "15.jpg",
+      "caption": "Two wheels, one direction — together.",
+      "anim": "zoom"
+    }
+  ],
+  "2002": [
+    {
+      "file": "01.jpg",
+      "caption": "The day they became Appa and Amma.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Welcomed by every hand that loved her.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "That little smile started it all.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "A year our family kept celebrating.",
+      "anim": "polaroid"
+    }
+  ],
+  "2003": [
+    {
+      "file": "01.jpg",
+      "caption": "Her first birthday, your first of so many.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Three of us now, out in the world.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Appa’s shoulders, the safest place.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Praying side by side, like always.",
+      "anim": "polaroid"
+    }
+  ],
+  "2004": [
+    {
+      "file": "01.jpg",
+      "caption": "Tiny, and already a little star.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "All dressed up, the three of us.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Surrounded by everyone who loved us.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Another family day, all dressed up.",
+      "anim": "polaroid"
+    }
+  ],
+  "2005": [
+    {
+      "file": "01.jpg",
+      "caption": "First wheels, Amma never far.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Lit up like the palace behind us.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Gathered for a family function.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Amma and her sister, matching green.",
+      "anim": "polaroid"
+    }
+  ],
+  "2006": [
+    {
+      "file": "01.jpg",
+      "caption": "The three of us, holding still a moment.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Quietly waiting for one more of us.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Appa’s girl, always held close.",
+      "anim": "zoom"
+    }
+  ],
+  "2007": [
+    {
+      "file": "01.jpg",
+      "caption": "The day we became four.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "New here, and already so loved.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Our littlest one, finally home.",
+      "anim": "zoom"
+    }
+  ],
+  "2008": [
+    {
+      "file": "01.jpg",
+      "caption": "The family, gathered in prayer.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Three hearts leaning close.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Blessed by the ones who came before.",
+      "anim": "zoom"
+    }
+  ],
+  "2009": [
+    {
+      "file": "01.jpg",
+      "caption": "Small family, big wide world.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "All four of us, at last.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "A sunny day, the whole family.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Bundled up in the mountain snow.",
+      "anim": "polaroid"
+    }
+  ],
+  "2010": [
+    {
+      "file": "01.jpg",
+      "caption": "Dressed up and glowing, together.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "A bite of cake, a houseful of joy.",
+      "anim": "popup"
+    }
+  ],
+  "2011": [
+    {
+      "file": "01.jpg",
+      "caption": "Off to school, brave and bright.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "The whole family, one garden.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Still just the two of them, too.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "After all this time, still holding hands.",
+      "anim": "polaroid"
+    }
+  ],
+  "2012": [
+    {
+      "file": "01.jpg",
+      "caption": "Carried high, laughing in the sun.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Even the temple bull posed with them.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Everyone we love, in one frame.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Crowded tables, full hearts.",
+      "anim": "polaroid"
+    }
+  ],
+  "2013": [
+    {
+      "file": "01.jpg",
+      "caption": "Cousins, cold drinks, temple steps.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Amma and the whole little gang.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "All dressed up for the temple.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Evening by the sea, together.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Just the two of them, out to lunch.",
+      "anim": "kenburns"
+    }
+  ],
+  "2014": [
+    {
+      "file": "01.jpg",
+      "caption": "Carrying our blessings through the door.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Side by side, hands in prayer.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Your handprints, on a home finally yours.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Under a canopy of marigolds.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Dressed for the biggest day — our home.",
+      "anim": "kenburns"
+    }
+  ],
+  "2015": [
+    {
+      "file": "01.jpg",
+      "caption": "Four of us, lost in the flowers.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Life jackets on, ready for anything.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "A temple visit, the two of them.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Caught in a hug.",
+      "anim": "polaroid"
+    }
+  ],
+  "2016": [
+    {
+      "file": "01.jpg",
+      "caption": "The whole family, all together.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "A quiet day out, just them.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "All four faces, close and happy.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Family traditions, every hand in.",
+      "anim": "polaroid"
+    }
+  ],
+  "2017": [
+    {
+      "file": "01.jpg",
+      "caption": "An easy afternoon by the river.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Still them, after all these years.",
+      "anim": "popup"
+    }
+  ],
+  "2018": [
+    {
+      "file": "01.jpg",
+      "caption": "Our little family of four.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Gathered close, all of us.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Wrapped up in each other.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Holding each other, glowing.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Still each other’s favourite.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "06.jpg",
+      "caption": "Cheek to cheek, like newlyweds.",
+      "anim": "popup"
+    }
+  ],
+  "2019": [
+    {
+      "file": "01.jpg",
+      "caption": "A temple morning, all four of us.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Dressed in our festival best.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "A quiet little vow at the temple.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "The way she still looks at him.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "A portrait of the two of them.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "06.jpg",
+      "caption": "Tucked in close, the two of them.",
+      "anim": "popup"
+    }
+  ],
+  "2020": [
+    {
+      "file": "01.jpg",
+      "caption": "Four faces, one bright night out.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Framed in marigolds, side by side.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Masked up, and still smiling.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Two hearts on a hilltop.",
+      "anim": "polaroid"
+    }
+  ],
+  "2021": [
+    {
+      "file": "01.jpg",
+      "caption": "Beneath the temple towers, together.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Matching steps, perfectly in time.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Laughing through the morning mist.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Watching the world from a quiet balcony.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "On the hills, side by side.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "06.jpg",
+      "caption": "A slow morning walk, just them.",
+      "anim": "popup"
+    }
+  ],
+  "2022": [
+    {
+      "file": "01.jpg",
+      "caption": "Arms wide open at the lake.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Leaning on you, like always.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Still making each other laugh.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Stolen closeness by the water.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Partners in every little adventure.",
+      "anim": "kenburns"
+    }
+  ],
+  "2023": [
+    {
+      "file": "01.jpg",
+      "caption": "City lights and a night to themselves.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Matching caps, big-match night.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Still falling for him, every day.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Caught mid-dance, caught mid-laugh.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Wherever they go, arm in arm.",
+      "anim": "kenburns"
+    }
+  ],
+  "2024": [
+    {
+      "file": "01.jpg",
+      "caption": "All four of us, dressed in silk.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Two kisses for their girl.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Dressed up, just the two of them.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Blessings, together at the temple.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Cake, candles, and the four of us.",
+      "anim": "kenburns"
+    }
+  ],
+  "2025": [
+    {
+      "file": "01.jpg",
+      "caption": "Still laughing, all four of us.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "02.jpg",
+      "caption": "Heads together, hearts together.",
+      "anim": "popup"
+    },
+    {
+      "file": "03.jpg",
+      "caption": "Off on an adventure, all together.",
+      "anim": "zoom"
+    },
+    {
+      "file": "04.jpg",
+      "caption": "Hand in hand, like the very first day.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "05.jpg",
+      "caption": "Still each other’s favourite joke.",
+      "anim": "kenburns"
+    },
+    {
+      "file": "06.jpg",
+      "caption": "One look, after everything.",
+      "anim": "popup"
+    },
+    {
+      "file": "07.jpg",
+      "caption": "Walking the aisle once more.",
+      "anim": "zoom"
+    },
+    {
+      "file": "08.jpg",
+      "caption": "Holding on, the whole sea behind them.",
+      "anim": "polaroid"
+    },
+    {
+      "file": "09.jpg",
+      "caption": "Roses, and that same old spark.",
+      "anim": "kenburns"
+    }
+  ],
+  "before-her": [
+    {
+      "file": "01.jpg",
+      "caption": "Amma, long before us."
+    },
+    {
+      "file": "02.jpg",
+      "caption": "On her way to him."
+    }
+  ],
+  "before-him": [
+    {
+      "file": "01.jpg",
+      "caption": "Appa, long before us."
+    },
+    {
+      "file": "02.jpg",
+      "caption": "On his way to her."
+    }
+  ]
+}

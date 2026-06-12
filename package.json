@@ -1,0 +1,15 @@
+{
+  "name": "silver-jubilee",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Surprise 25th anniversary magic-show website for Preethi & Sathi",
+  "scripts": {
+    "media": "node tools/optimize-photos.mjs && node tools/build-manifest.mjs",
+    "manifest": "node tools/build-manifest.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

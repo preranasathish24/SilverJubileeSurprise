@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#1a0606" />
+  <title>Silver Jubilee · A Magic Show</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- The whole show lives inside the stage -->
+  <main id="stage">
+    <div id="atmosphere"></div>
+    <div id="scene-layer"></div>
+    <div id="transition-layer"></div>
+
+    <!-- Red velvet curtains -->
+    <div id="curtains" class="open">
+      <div class="curtain left"></div>
+      <div class="curtain right"></div>
+      <!-- premium pelmet/valance: draped swags + gold fringe, sits above the panels -->
+      <div class="valance">
+        <div class="swags">
+          <span class="swag"></span><span class="swag"></span><span class="swag"></span>
+          <span class="swag"></span><span class="swag"></span><span class="swag"></span>
+        </div>
+        <div class="tassels">
+          <span class="tassel"></span><span class="tassel"></span><span class="tassel"></span>
+          <span class="tassel"></span><span class="tassel"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Heads-up display: the wands + the progress indicator -->
+    <div id="hud">
+      <button id="wand-prev" class="nav-wand prev hidden" aria-label="Travel back a year">
+        <span class="wand-cue">back</span>
+      </button>
+      <button id="wand-next" class="nav-wand next hidden" aria-label="Travel forward a year">
+        <span class="wand-cue">next</span>
+      </button>
+      <div id="progress" class="progress"></div>
+    </div>
+
+    <!-- Top controls -->
+    <div class="top-controls">
+      <button id="mute" aria-label="Toggle sound">🔊</button>
+      <button id="dir-toggle" aria-label="Director's panel">✦</button>
+    </div>
+  </main>
+
+  <!-- Supabase client (for the live Wishes Wall) + your credentials -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

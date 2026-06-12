@@ -1,0 +1,42 @@
+# OPTIONAL auto-import via GitHub.
+# To enable: copy this file to  .github/workflows/silver-jubilee-manifest.yml
+# at the REPOSITORY ROOT and commit it. (It lives here as an example because
+# pushing workflow files needs a token with the `workflow` scope.)
+#
+# What it does: when photos are added/removed under silver-jubilee/media/
+# (e.g. dragged in via the GitHub web UI), it regenerates manifest.json +
+# captions.csv automatically. If you always run `npm run media` locally, you
+# don't need this.
+
+name: Silver Jubilee - rebuild photo manifest
+
+on:
+  push:
+    paths:
+      - 'silver-jubilee/media/**'
+
+permissions:
+  contents: write
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build manifest
+        working-directory: silver-jubilee
+        run: node tools/build-manifest.mjs
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain silver-jubilee/media/manifest.json silver-jubilee/media/captions.csv)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add silver-jubilee/media/manifest.json silver-jubilee/media/captions.csv
+            git commit -m "Rebuild photo manifest [skip ci]"
+            git push
+          else
+            echo "Manifest already up to date."
+          fi
