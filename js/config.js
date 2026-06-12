@@ -12,6 +12,6 @@
    (see SUPABASE-SETUP.md). Never put the *service_role* / secret key here.
    ========================================================================== */
 window.SJ_CONFIG = {
-  SUPABASE_URL: 'https://mgocvnqpeedwfvtrwkse.supabase.co/rest/v1/',        // e.g. 'https://abcdefghijklmnop.supabase.co'
+  SUPABASE_URL: 'https://mgocvnqpeedwfvtrwkse.supabase.co',        // e.g. 'https://abcdefghijklmnop.supabase.co'
   SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1nb2N2bnFwZWVkd2Z2dHJ3a3NlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEyNTc3MDQsImV4cCI6MjA5NjgzMzcwNH0.OR5fH92yfNZdnU9sj1dt5SAgP-x3RtvGSQs54Fl5Aq0',   // the project's "anon public" key (a long eyJ... string)
 };
