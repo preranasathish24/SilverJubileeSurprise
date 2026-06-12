@@ -922,6 +922,15 @@
           <button class="ghost-btn" id="to-wishes">Continue to the Wishes Wall →</button>
         </div>`;
       const v = $('#family-video');
+      const frame = v.closest('.video-frame');
+
+      v.addEventListener('loadedmetadata', () => {
+        const r = v.videoWidth / v.videoHeight;
+        if (!r || !isFinite(r) || !frame) return;
+
+        frame.classList.toggle('is-portrait', r < 1);
+        frame.style.aspectRatio = r.toFixed(4);
+      });
       v.src = 'media/finale/family.mp4';
       v.addEventListener('error', () => {
         v.style.display = 'none';

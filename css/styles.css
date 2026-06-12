@@ -560,11 +560,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* video reveal */
 .video-scene { position: absolute; inset: 0; display: grid; place-items: center; gap: 22px; z-index: 20; padding: 24px; }
 .video-frame { width: min(90vw, 520px); aspect-ratio: 16/10; background: #000; border: 10px solid #1a1a1a; border-radius: 4px; box-shadow: 0 0 0 2px var(--gold), 0 24px 60px rgba(0,0,0,0.7); position: relative; overflow: hidden; }
-.video-frame video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.video-frame video { width: 100%; height: 100%; object-fit: contain; display: block; }
 .video-fallback { position: absolute; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--ink-soft); text-align: center; }
 .video-fallback .vf-reel { font-size: 3rem; }
 .video-fallback code { color: var(--gold); font-family: ui-monospace, monospace; font-size: 0.8rem; }
-
+.video-frame.is-portrait {
+  max-width: 420px;
+  margin: 0 auto;
+}
 /* =============================================================================
    WISHES WALL
    ========================================================================== */
