@@ -899,7 +899,7 @@
     setChrome('ready');
     progress.className = 'progress milestone';
     progress.innerHTML = `<span class="p-dot"></span> The Reveal`;
-    wandNext.classList.add('hidden');
+    wandNext.classList.remove('hidden');
     wandPrev.classList.remove('hidden');
   }
 
@@ -938,6 +938,7 @@
       });
       v.play?.().catch(() => {});
       $('#to-wishes').addEventListener('click', enterWishes, { once: true });
+      wandNext.onclick = enterWishes;
     });
   }
 

@@ -558,14 +558,33 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .gift-tap { font-family: var(--film-serif); font-size: 0.62rem; letter-spacing: 0.34em; text-indent: 0.34em; color: var(--ink-soft); animation: pulseHint 2.2s ease-in-out infinite; margin-top: 1.4rem; }
 
 /* video reveal */
-.video-scene { position: absolute; inset: 0; display: grid; place-items: center; gap: 22px; z-index: 20; padding: 24px; }
-.video-frame { width: min(90vw, 520px); aspect-ratio: 16/10; background: #000; border: 10px solid #1a1a1a; border-radius: 4px; box-shadow: 0 0 0 2px var(--gold), 0 24px 60px rgba(0,0,0,0.7); position: relative; overflow: hidden; }
+.video-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 18px;
+
+  padding:
+    calc(env(safe-area-inset-top) + 90px)
+    24px
+    calc(env(safe-area-inset-bottom) + 160px);
+
+  overflow-y: auto;
+}
+.video-frame { width: min(90vw, 520px); aspect-ratio: 16/10; background: #000; border: 10px solid #1a1a1a; border-radius: 4px; box-shadow: 0 0 0 2px var(--gold), 0 24px 60px rgba(0,0,0,0.7); position: relative; overflow: hidden; flex-shrink: 1; }
 .video-frame video { width: 100%; height: 100%; object-fit: contain; display: block; }
 .video-fallback { position: absolute; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--ink-soft); text-align: center; }
 .video-fallback .vf-reel { font-size: 3rem; }
 .video-fallback code { color: var(--gold); font-family: ui-monospace, monospace; font-size: 0.8rem; }
 .video-frame.is-portrait {
-  max-width: 420px;
+ max-width: min(82vw, 360px);
+  max-height: 58vh;
   margin: 0 auto;
 }
 /* =============================================================================
@@ -595,9 +614,34 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .wn-name { font-family: var(--body-serif); font-style: italic; font-size: 0.95rem; margin-top: 8px; opacity: 0.7; }
 
 .ghost-btn {
-  display: block; margin: 1.4rem auto 0; font-family: var(--film-serif); letter-spacing: 0.2em;
-  font-size: 0.72rem; padding: 11px 22px; border-radius: 30px; color: var(--ink-soft);
-  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); background: rgba(0,0,0,0.25);
+  display: block;
+  margin: 0.4rem auto 0;
+
+  font-family: var(--film-serif);
+  letter-spacing: 0.2em;
+  font-size: 0.82rem;
+
+  padding: 14px 26px;
+
+  border-radius: 30px;
+  color: var(--ink);
+
+  border: 1px solid var(--accent);
+
+  background:
+    linear-gradient(
+      160deg,
+      rgba(201,150,63,.22),
+      rgba(0,0,0,.35)
+    );
+
+  box-shadow:
+    0 0 0 1px rgba(201,150,63,.15),
+    0 6px 18px rgba(0,0,0,.35);
+
+  position: relative;
+  z-index: 30;
+  flex-shrink: 0;
 }
 .ghost-btn:hover { color: var(--ink); border-color: var(--accent); }
 .finale-jump { position: sticky; bottom: 0; }
